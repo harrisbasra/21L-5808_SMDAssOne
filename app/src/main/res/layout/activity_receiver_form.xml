@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:padding="@dimen/default_padding">
+
+    <!-- Receiver Details Title -->
+    <TextView
+        android:id="@+id/receiver_details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receiver_details"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_large"
+        android:background="@color/primaryColor"
+        android:gravity="center"
+        android:padding="@dimen/default_padding" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/receiver_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_input_background"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/formTextColor"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <!-- Full Name Field -->
+    <EditText
+        android:id="@+id/receiver_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_input_background"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/formTextColor"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <!-- Contact Information Field -->
+    <EditText
+        android:id="@+id/receiver_contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone"
+        android:hint="@string/contact_information"
+        android:inputType="phone"
+        android:background="@drawable/rounded_input_background"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/formTextColor"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <!-- Country Field -->
+    <EditText
+        android:id="@+id/receiver_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:hint="@string/country"
+        android:inputType="text"
+        android:background="@drawable/rounded_input_background"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/formTextColor"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <!-- Address Field -->
+    <EditText
+        android:id="@+id/receiver_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="postalAddress"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:background="@drawable/rounded_input_background"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/formTextColor"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/next"
+        android:background="@color/primaryColor"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

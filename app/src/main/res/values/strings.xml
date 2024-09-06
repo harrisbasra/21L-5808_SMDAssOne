@@ -1,0 +1,25 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">SMD A1</string>
+
+    <!-- Splash Screen -->
+    <string name="app_logo">App Logo</string>
+
+    <!-- Sender Information Form -->
+    <string name="sender_details">Sender Details</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="country">Country</string>
+    <string name="address">Address</string>
+    <string name="next">Next</string>
+
+    <!-- Receiver Information Form -->
+    <string name="receiver_details">Receiver Details</string>
+
+    <!-- Review Information -->
+    <string name="review_info">Review Information</string>
+    <string name="back">Back to Sender Info</string>
+    <string name="edit_sender">EditSender</string>
+    <string name="transaction_arrow_desc">Arrow</string>
+</resources>
